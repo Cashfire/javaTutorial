@@ -26,6 +26,7 @@ public class SplitPane extends JFrame{
 		//make it expandable
 		jsp.setOneTouchExpandable(true);
 		//set layout (Note: JFrame use BorderLayout by default)
+		//add components
 		this.add(jsp);
 		this.setTitle("Merriam-Webster's Dictionary");
 		this.setSize(400, 400);
